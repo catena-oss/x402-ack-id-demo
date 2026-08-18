@@ -10,22 +10,22 @@ importers:
     dependencies:
       '@agentcommercekit/did':
         specifier: 0.10.1
-        version: 0.10.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(zod@4.4.3)
+        version: 0.10.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)(zod@4.4.3)
       '@agentcommercekit/jwt':
         specifier: 0.9.0
-        version: 0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(valibot@1.1.0(typescript@5.9.3))(zod@4.4.3)
+        version: 0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)(valibot@1.1.0(typescript@6.0.3))(zod@4.4.3)
       '@agentcommercekit/keys':
         specifier: 0.9.0
-        version: 0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)
+        version: 0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)
       '@x402/core':
         specifier: 2.21.0
         version: 2.21.0
       '@x402/evm':
         specifier: 2.21.0
-        version: 2.21.0(typescript@5.9.3)
+        version: 2.21.0(typescript@6.0.3)
       '@x402/express':
         specifier: 2.21.0
-        version: 2.21.0(express@5.2.1)(typescript@5.9.3)
+        version: 2.21.0(express@5.2.1)(typescript@6.0.3)
       '@x402/fetch':
         specifier: 2.21.0
         version: 2.21.0
@@ -34,7 +34,7 @@ importers:
         version: 5.2.1
       viem:
         specifier: ^2.31.0
-        version: 2.55.4(typescript@5.9.3)(zod@4.4.3)
+        version: 2.55.4(typescript@6.0.3)(zod@4.4.3)
       zod:
         specifier: ^4.0.5
         version: 4.4.3
@@ -58,11 +58,11 @@ importers:
         specifier: ^4.20.0
         version: 4.23.1
       typescript:
-        specifier: ^5.8.0
-        version: 5.9.3
+        specifier: ^6.0.3
+        version: 6.0.3
       typescript-eslint:
         specifier: ^8.35.0
-        version: 8.65.0(eslint@9.39.5)(typescript@5.9.3)
+        version: 8.65.0(eslint@9.39.5)(typescript@6.0.3)
       vitest:
         specifier: ^3.2.0
         version: 3.2.7(@types/node@22.20.1)(tsx@4.23.1)
@@ -1447,8 +1447,8 @@ packages:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
       typescript: '>=4.8.4 <6.1.0'
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1618,19 +1618,19 @@ snapshots:
 
   '@adraffy/ens-normalize@1.11.1': {}
 
-  '@agentcommercekit/caip@0.1.0(valibot@1.1.0(typescript@5.9.3))(zod@4.4.3)':
+  '@agentcommercekit/caip@0.1.0(valibot@1.1.0(typescript@6.0.3))(zod@4.4.3)':
     optionalDependencies:
-      valibot: 1.1.0(typescript@5.9.3)
+      valibot: 1.1.0(typescript@6.0.3)
       zod: 4.4.3
 
-  '@agentcommercekit/did@0.10.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(zod@4.4.3)':
+  '@agentcommercekit/did@0.10.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)(zod@4.4.3)':
     dependencies:
-      '@agentcommercekit/caip': 0.1.0(valibot@1.1.0(typescript@5.9.3))(zod@4.4.3)
-      '@agentcommercekit/keys': 0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)
+      '@agentcommercekit/caip': 0.1.0(valibot@1.1.0(typescript@6.0.3))(zod@4.4.3)
+      '@agentcommercekit/keys': 0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)
       did-resolver: 4.1.0
-      jwks-did-resolver: 0.3.0(typescript@5.9.3)(zod@4.4.3)
+      jwks-did-resolver: 0.3.0(typescript@6.0.3)(zod@4.4.3)
       key-did-resolver: 4.0.0
-      valibot: 1.1.0(typescript@5.9.3)
+      valibot: 1.1.0(typescript@6.0.3)
       varint: 6.0.0
     optionalDependencies:
       zod: 4.4.3
@@ -1638,21 +1638,21 @@ snapshots:
       - fastestsmallesttextencoderdecoder
       - typescript
 
-  '@agentcommercekit/jwt@0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(valibot@1.1.0(typescript@5.9.3))(zod@4.4.3)':
+  '@agentcommercekit/jwt@0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)(valibot@1.1.0(typescript@6.0.3))(zod@4.4.3)':
     dependencies:
-      '@agentcommercekit/keys': 0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)
+      '@agentcommercekit/keys': 0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)
       did-jwt: 8.0.18
     optionalDependencies:
-      valibot: 1.1.0(typescript@5.9.3)
+      valibot: 1.1.0(typescript@6.0.3)
       zod: 4.4.3
     transitivePeerDependencies:
       - fastestsmallesttextencoderdecoder
       - typescript
 
-  '@agentcommercekit/keys@0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)':
+  '@agentcommercekit/keys@0.9.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)':
     dependencies:
       '@noble/curves': 1.9.7
-      '@solana/codecs-strings': 2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)
+      '@solana/codecs-strings': 2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)
       multiformats: 13.4.2
       uint8arrays: 5.1.1
     transitivePeerDependencies:
@@ -1914,36 +1914,36 @@ snapshots:
       '@noble/hashes': 1.8.0
       apg-js: 4.4.0
 
-  '@signinwithethereum/siwe@4.2.0(viem@2.55.4(typescript@5.9.3)(zod@4.4.3))':
+  '@signinwithethereum/siwe@4.2.0(viem@2.55.4(typescript@6.0.3)(zod@4.4.3))':
     dependencies:
       '@signinwithethereum/siwe-parser': 4.2.0
     optionalDependencies:
-      viem: 2.55.4(typescript@5.9.3)(zod@4.4.3)
+      viem: 2.55.4(typescript@6.0.3)(zod@4.4.3)
 
-  '@solana/codecs-core@2.3.0(typescript@5.9.3)':
+  '@solana/codecs-core@2.3.0(typescript@6.0.3)':
     dependencies:
-      '@solana/errors': 2.3.0(typescript@5.9.3)
-      typescript: 5.9.3
+      '@solana/errors': 2.3.0(typescript@6.0.3)
+      typescript: 6.0.3
 
-  '@solana/codecs-numbers@2.3.0(typescript@5.9.3)':
+  '@solana/codecs-numbers@2.3.0(typescript@6.0.3)':
     dependencies:
-      '@solana/codecs-core': 2.3.0(typescript@5.9.3)
-      '@solana/errors': 2.3.0(typescript@5.9.3)
-      typescript: 5.9.3
+      '@solana/codecs-core': 2.3.0(typescript@6.0.3)
+      '@solana/errors': 2.3.0(typescript@6.0.3)
+      typescript: 6.0.3
 
-  '@solana/codecs-strings@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)':
+  '@solana/codecs-strings@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@6.0.3)':
     dependencies:
-      '@solana/codecs-core': 2.3.0(typescript@5.9.3)
-      '@solana/codecs-numbers': 2.3.0(typescript@5.9.3)
-      '@solana/errors': 2.3.0(typescript@5.9.3)
+      '@solana/codecs-core': 2.3.0(typescript@6.0.3)
+      '@solana/codecs-numbers': 2.3.0(typescript@6.0.3)
+      '@solana/errors': 2.3.0(typescript@6.0.3)
       fastestsmallesttextencoderdecoder: 1.0.22
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@solana/errors@2.3.0(typescript@5.9.3)':
+  '@solana/errors@2.3.0(typescript@6.0.3)':
     dependencies:
       chalk: 5.6.2
       commander: 14.0.3
-      typescript: 5.9.3
+      typescript: 6.0.3
 
   '@types/body-parser@1.19.6':
     dependencies:
@@ -1997,40 +1997,40 @@ snapshots:
       '@types/http-errors': 2.0.5
       '@types/node': 22.20.1
 
-  '@typescript-eslint/eslint-plugin@8.65.0(@typescript-eslint/parser@8.65.0(eslint@9.39.5)(typescript@5.9.3))(eslint@9.39.5)(typescript@5.9.3)':
+  '@typescript-eslint/eslint-plugin@8.65.0(@typescript-eslint/parser@8.65.0(eslint@9.39.5)(typescript@6.0.3))(eslint@9.39.5)(typescript@6.0.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.2
-      '@typescript-eslint/parser': 8.65.0(eslint@9.39.5)(typescript@5.9.3)
+      '@typescript-eslint/parser': 8.65.0(eslint@9.39.5)(typescript@6.0.3)
       '@typescript-eslint/scope-manager': 8.65.0
-      '@typescript-eslint/type-utils': 8.65.0(eslint@9.39.5)(typescript@5.9.3)
-      '@typescript-eslint/utils': 8.65.0(eslint@9.39.5)(typescript@5.9.3)
+      '@typescript-eslint/type-utils': 8.65.0(eslint@9.39.5)(typescript@6.0.3)
+      '@typescript-eslint/utils': 8.65.0(eslint@9.39.5)(typescript@6.0.3)
       '@typescript-eslint/visitor-keys': 8.65.0
       eslint: 9.39.5
       ignore: 7.0.6
       natural-compare: 1.4.0
-      ts-api-utils: 2.5.0(typescript@5.9.3)
-      typescript: 5.9.3
+      ts-api-utils: 2.5.0(typescript@6.0.3)
+      typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/parser@8.65.0(eslint@9.39.5)(typescript@5.9.3)':
+  '@typescript-eslint/parser@8.65.0(eslint@9.39.5)(typescript@6.0.3)':
     dependencies:
       '@typescript-eslint/scope-manager': 8.65.0
       '@typescript-eslint/types': 8.65.0
-      '@typescript-eslint/typescript-estree': 8.65.0(typescript@5.9.3)
+      '@typescript-eslint/typescript-estree': 8.65.0(typescript@6.0.3)
       '@typescript-eslint/visitor-keys': 8.65.0
       debug: 4.4.3
       eslint: 9.39.5
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/project-service@8.65.0(typescript@5.9.3)':
+  '@typescript-eslint/project-service@8.65.0(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.65.0(typescript@5.9.3)
+      '@typescript-eslint/tsconfig-utils': 8.65.0(typescript@6.0.3)
       '@typescript-eslint/types': 8.65.0
       debug: 4.4.3
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
 
@@ -2039,47 +2039,47 @@ snapshots:
       '@typescript-eslint/types': 8.65.0
       '@typescript-eslint/visitor-keys': 8.65.0
 
-  '@typescript-eslint/tsconfig-utils@8.65.0(typescript@5.9.3)':
+  '@typescript-eslint/tsconfig-utils@8.65.0(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
-  '@typescript-eslint/type-utils@8.65.0(eslint@9.39.5)(typescript@5.9.3)':
+  '@typescript-eslint/type-utils@8.65.0(eslint@9.39.5)(typescript@6.0.3)':
     dependencies:
       '@typescript-eslint/types': 8.65.0
-      '@typescript-eslint/typescript-estree': 8.65.0(typescript@5.9.3)
-      '@typescript-eslint/utils': 8.65.0(eslint@9.39.5)(typescript@5.9.3)
+      '@typescript-eslint/typescript-estree': 8.65.0(typescript@6.0.3)
+      '@typescript-eslint/utils': 8.65.0(eslint@9.39.5)(typescript@6.0.3)
       debug: 4.4.3
       eslint: 9.39.5
-      ts-api-utils: 2.5.0(typescript@5.9.3)
-      typescript: 5.9.3
+      ts-api-utils: 2.5.0(typescript@6.0.3)
+      typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
 
   '@typescript-eslint/types@8.65.0': {}
 
-  '@typescript-eslint/typescript-estree@8.65.0(typescript@5.9.3)':
+  '@typescript-eslint/typescript-estree@8.65.0(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/project-service': 8.65.0(typescript@5.9.3)
-      '@typescript-eslint/tsconfig-utils': 8.65.0(typescript@5.9.3)
+      '@typescript-eslint/project-service': 8.65.0(typescript@6.0.3)
+      '@typescript-eslint/tsconfig-utils': 8.65.0(typescript@6.0.3)
       '@typescript-eslint/types': 8.65.0
       '@typescript-eslint/visitor-keys': 8.65.0
       debug: 4.4.3
       minimatch: 10.2.5
       semver: 7.8.5
       tinyglobby: 0.2.17
-      ts-api-utils: 2.5.0(typescript@5.9.3)
-      typescript: 5.9.3
+      ts-api-utils: 2.5.0(typescript@6.0.3)
+      typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/utils@8.65.0(eslint@9.39.5)(typescript@5.9.3)':
+  '@typescript-eslint/utils@8.65.0(eslint@9.39.5)(typescript@6.0.3)':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.5)
       '@typescript-eslint/scope-manager': 8.65.0
       '@typescript-eslint/types': 8.65.0
-      '@typescript-eslint/typescript-estree': 8.65.0(typescript@5.9.3)
+      '@typescript-eslint/typescript-estree': 8.65.0(typescript@6.0.3)
       eslint: 9.39.5
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
 
@@ -2134,20 +2134,20 @@ snapshots:
     dependencies:
       zod: 3.25.76
 
-  '@x402/evm@2.21.0(typescript@5.9.3)':
+  '@x402/evm@2.21.0(typescript@6.0.3)':
     dependencies:
       '@x402/core': 2.21.0
-      viem: 2.55.4(typescript@5.9.3)(zod@3.25.76)
+      viem: 2.55.4(typescript@6.0.3)(zod@3.25.76)
       zod: 3.25.76
     transitivePeerDependencies:
       - bufferutil
       - typescript
       - utf-8-validate
 
-  '@x402/express@2.21.0(express@5.2.1)(typescript@5.9.3)':
+  '@x402/express@2.21.0(express@5.2.1)(typescript@6.0.3)':
     dependencies:
       '@x402/core': 2.21.0
-      '@x402/extensions': 2.21.0(typescript@5.9.3)
+      '@x402/extensions': 2.21.0(typescript@6.0.3)
       express: 5.2.1
     transitivePeerDependencies:
       - bufferutil
@@ -2155,16 +2155,16 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@x402/extensions@2.21.0(typescript@5.9.3)':
+  '@x402/extensions@2.21.0(typescript@6.0.3)':
     dependencies:
       '@noble/curves': 1.9.7
       '@scure/base': 1.2.6
-      '@signinwithethereum/siwe': 4.2.0(viem@2.55.4(typescript@5.9.3)(zod@4.4.3))
+      '@signinwithethereum/siwe': 4.2.0(viem@2.55.4(typescript@6.0.3)(zod@4.4.3))
       '@x402/core': 2.21.0
       ajv: 8.20.0
       jose: 5.10.0
       tweetnacl: 1.0.3
-      viem: 2.55.4(typescript@5.9.3)(zod@3.25.76)
+      viem: 2.55.4(typescript@6.0.3)(zod@3.25.76)
       zod: 3.25.76
     transitivePeerDependencies:
       - bufferutil
@@ -2176,14 +2176,14 @@ snapshots:
     dependencies:
       '@x402/core': 2.21.0
 
-  abitype@1.2.3(typescript@5.9.3)(zod@3.25.76):
+  abitype@1.2.3(typescript@6.0.3)(zod@3.25.76):
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
       zod: 3.25.76
 
-  abitype@1.2.3(typescript@5.9.3)(zod@4.4.3):
+  abitype@1.2.3(typescript@6.0.3)(zod@4.4.3):
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
       zod: 4.4.3
 
   accepts@2.0.0:
@@ -2319,10 +2319,10 @@ snapshots:
 
   depd@2.0.0: {}
 
-  did-jwks@0.3.0(typescript@5.9.3)(zod@4.4.3):
+  did-jwks@0.3.0(typescript@6.0.3)(zod@4.4.3):
     dependencies:
-      valibot: 1.1.0(typescript@5.9.3)
-      web-identity-schemas: 0.1.6(valibot@1.1.0(typescript@5.9.3))(zod@4.4.3)
+      valibot: 1.1.0(typescript@6.0.3)
+      web-identity-schemas: 0.1.6(valibot@1.1.0(typescript@6.0.3))(zod@4.4.3)
     transitivePeerDependencies:
       - typescript
       - zod
@@ -2646,9 +2646,9 @@ snapshots:
 
   json-stable-stringify-without-jsonify@1.0.1: {}
 
-  jwks-did-resolver@0.3.0(typescript@5.9.3)(zod@4.4.3):
+  jwks-did-resolver@0.3.0(typescript@6.0.3)(zod@4.4.3):
     dependencies:
-      did-jwks: 0.3.0(typescript@5.9.3)(zod@4.4.3)
+      did-jwks: 0.3.0(typescript@6.0.3)(zod@4.4.3)
     transitivePeerDependencies:
       - typescript
       - zod
@@ -2736,7 +2736,7 @@ snapshots:
       type-check: 0.4.0
       word-wrap: 1.2.5
 
-  ox@0.14.30(typescript@5.9.3)(zod@3.25.76):
+  ox@0.14.30(typescript@6.0.3)(zod@3.25.76):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -2744,14 +2744,14 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@3.25.76)
+      abitype: 1.2.3(typescript@6.0.3)(zod@3.25.76)
       eventemitter3: 5.0.1
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - zod
 
-  ox@0.14.30(typescript@5.9.3)(zod@4.4.3):
+  ox@0.14.30(typescript@6.0.3)(zod@4.4.3):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -2759,10 +2759,10 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.4.3)
+      abitype: 1.2.3(typescript@6.0.3)(zod@4.4.3)
       eventemitter3: 5.0.1
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - zod
 
@@ -2972,9 +2972,9 @@ snapshots:
 
   toidentifier@1.0.1: {}
 
-  ts-api-utils@2.5.0(typescript@5.9.3):
+  ts-api-utils@2.5.0(typescript@6.0.3):
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
   tsx@4.23.1:
     dependencies:
@@ -2994,18 +2994,18 @@ snapshots:
       media-typer: 1.1.0
       mime-types: 3.0.2
 
-  typescript-eslint@8.65.0(eslint@9.39.5)(typescript@5.9.3):
+  typescript-eslint@8.65.0(eslint@9.39.5)(typescript@6.0.3):
     dependencies:
-      '@typescript-eslint/eslint-plugin': 8.65.0(@typescript-eslint/parser@8.65.0(eslint@9.39.5)(typescript@5.9.3))(eslint@9.39.5)(typescript@5.9.3)
-      '@typescript-eslint/parser': 8.65.0(eslint@9.39.5)(typescript@5.9.3)
-      '@typescript-eslint/typescript-estree': 8.65.0(typescript@5.9.3)
-      '@typescript-eslint/utils': 8.65.0(eslint@9.39.5)(typescript@5.9.3)
+      '@typescript-eslint/eslint-plugin': 8.65.0(@typescript-eslint/parser@8.65.0(eslint@9.39.5)(typescript@6.0.3))(eslint@9.39.5)(typescript@6.0.3)
+      '@typescript-eslint/parser': 8.65.0(eslint@9.39.5)(typescript@6.0.3)
+      '@typescript-eslint/typescript-estree': 8.65.0(typescript@6.0.3)
+      '@typescript-eslint/utils': 8.65.0(eslint@9.39.5)(typescript@6.0.3)
       eslint: 9.39.5
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
 
-  typescript@5.9.3: {}
+  typescript@6.0.3: {}
 
   uint8arrays@3.1.1:
     dependencies:
@@ -3023,43 +3023,43 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  valibot@1.1.0(typescript@5.9.3):
+  valibot@1.1.0(typescript@6.0.3):
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
   varint@6.0.0: {}
 
   vary@1.1.2: {}
 
-  viem@2.55.4(typescript@5.9.3)(zod@3.25.76):
+  viem@2.55.4(typescript@6.0.3)(zod@3.25.76):
     dependencies:
       '@noble/curves': 1.9.1
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@3.25.76)
+      abitype: 1.2.3(typescript@6.0.3)(zod@3.25.76)
       isows: 1.0.7(ws@8.21.0)
-      ox: 0.14.30(typescript@5.9.3)(zod@3.25.76)
+      ox: 0.14.30(typescript@6.0.3)(zod@3.25.76)
       ws: 8.21.0
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
       - zod
 
-  viem@2.55.4(typescript@5.9.3)(zod@4.4.3):
+  viem@2.55.4(typescript@6.0.3)(zod@4.4.3):
     dependencies:
       '@noble/curves': 1.9.1
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.4.3)
+      abitype: 1.2.3(typescript@6.0.3)(zod@4.4.3)
       isows: 1.0.7(ws@8.21.0)
-      ox: 0.14.30(typescript@5.9.3)(zod@4.4.3)
+      ox: 0.14.30(typescript@6.0.3)(zod@4.4.3)
       ws: 8.21.0
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -3140,9 +3140,9 @@ snapshots:
       - tsx
       - yaml
 
-  web-identity-schemas@0.1.6(valibot@1.1.0(typescript@5.9.3))(zod@4.4.3):
+  web-identity-schemas@0.1.6(valibot@1.1.0(typescript@6.0.3))(zod@4.4.3):
     optionalDependencies:
-      valibot: 1.1.0(typescript@5.9.3)
+      valibot: 1.1.0(typescript@6.0.3)
       zod: 4.4.3
 
   which@2.0.2:
