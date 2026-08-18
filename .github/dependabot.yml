@@ -8,6 +8,9 @@ updates:
     # bump is checked against the payment tests by hand.
     ignore:
       - dependency-name: "@x402/*"
+      # Types track the runtime major; Node is pinned to 22 here.
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
     groups:
       minor-and-patch:
         applies-to: version-updates
